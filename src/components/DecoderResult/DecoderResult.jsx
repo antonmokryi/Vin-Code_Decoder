@@ -9,7 +9,8 @@ export const DecoderResult = () => {
   const searchVin = vinStore?.SearchCriteria;
 
   return (
-    <section className={style.resultSection}>
+    <div className="container">
+      <section className={style.resultSection}>
       <h3 className={style.resultTitle}>Decoder result</h3>
       {searchVin && <p className={style.resultText}>{searchVin}</p>}
       {message && <p className={style.resultText}>{message}</p>}
@@ -26,5 +27,6 @@ export const DecoderResult = () => {
         </ul>
       )}
     </section>
+    </div>
   );
 };
