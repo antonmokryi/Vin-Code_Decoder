@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+:root{
+  --fontLogoStyle: "Audiowide", sans-serif;
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Exo 2", sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+ul, li, h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container{
+  max-width: 1440px;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}

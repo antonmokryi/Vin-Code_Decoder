@@ -1,0 +1,60 @@
+.vinSection {
+    padding: 40px 0;
+}
+
+.vinForm {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 999px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.vinFormTitle {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 8px;
+}
+
+.vinSubtitle {
+    text-align: center;
+    margin: 0 0 20px;
+    opacity: 0.8;
+}
+
+.vinForm__inp {
+    border: none;
+    background-color: transparent;
+    color: white;
+    flex: 1 1 0;
+    outline: none;
+}
+
+.vinForm__inp::placeholder{
+    color: white;
+}
+
+.vinForm__submit {
+    border: none;
+    background-color: transparent;
+}
+
+.vinSection__error{
+    display: block;
+    width: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 1rem 0;
+    color: rgba(255, 0, 0, 0.507);
+    font-weight: 700;
+}
+
+.vinSection__errorHidden{
+    visibility: hidden;
+}

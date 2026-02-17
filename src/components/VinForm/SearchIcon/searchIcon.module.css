@@ -1,0 +1,28 @@
+.searchIcon {
+    width: 25px;
+    height: 20px;
+    display: flex;
+    position: relative;
+}
+
+.searchIcon span{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.searchIcon span::after{
+    display: block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    right: -6px;
+    bottom: -5px;
+}

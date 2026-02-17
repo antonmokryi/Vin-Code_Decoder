@@ -1,0 +1,23 @@
+.historyItem {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px 4px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    transition: all 300ms ease;
+    width:60%;
+    margin: 0 auto;
+}
+
+.historyItem:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+    box-shadow: 1px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 0px 7px 4px rgba(0, 0, 0, 0.75);
+}
+
+.historyItem:active {
+    transform: scale(0.95);
+}

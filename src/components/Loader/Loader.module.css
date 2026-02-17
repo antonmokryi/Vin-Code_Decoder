@@ -1,0 +1,35 @@
+
+.loaderSection{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(27, 27, 27, 0.719);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loaderSection span{
+    font-family: var(--fontLogoStyle);
+    font-weight: 800;
+    font-size: 66px;
+    letter-spacing: 5px;
+    color: red;
+    animation: letterPulse 0.9s infinite;
+    will-change: auto;
+}
+
+@keyframes letterPulse {
+    0% { opacity: 0.2;
+        transform: translateY(0);
+    }
+    50%  { opacity: 1; 
+        transform: translateY(-2px);
+    }
+    100% { opacity: 0.2; 
+        transform: translateY(0);
+    }
+}
